@@ -1,11 +1,10 @@
-import ExpenseItem from './components/ExpenseItem'
+import
 
 
 function App() {
   return (
     <div>
       <h2>Lets Get Started</h2>
-      <ExpenseItem />
     </div>
   )
 }
