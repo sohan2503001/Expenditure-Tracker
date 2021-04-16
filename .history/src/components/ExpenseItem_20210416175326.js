@@ -7,10 +7,10 @@ function ExpenseItem() {
 
     return (
         <div className="expense-item">
-            <div>{expenseDate.toISOString()}</div>
+            <div>March 28th 2021</div>
             <div className="expense-item__description">
-                <h2 className="expense-item h2">{expenseTitle}</h2>
-                <div className="expense-item__price">{expenseAmount}</div>
+                <h2 className="expense-item h2">car Insurance</h2>
+                <div className="expense-item__price">$294.54</div>
             </div>
         </div>
     );
