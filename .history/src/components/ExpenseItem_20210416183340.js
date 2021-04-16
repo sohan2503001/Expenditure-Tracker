@@ -10,12 +10,13 @@ function ExpenseItem(props) {
             <div>
             <div>{month}</div>
             <div>{year}</div>
-            <div>{day}</div>
+            <div>{}</div>
             </div>
-
+            
+            <div>{expenseDate.toISOString()}</div>
             <div className="expense-item__description">
-                <h2 className="expense-item h2">{props.title}</h2>
-                <div className="expense-item__price">{props.amount}</div>
+                <h2 className="expense-item h2">{expenseTitle}</h2>
+                <div className="expense-item__price">{expenseAmount}</div>
             </div>
         </div>
     );
