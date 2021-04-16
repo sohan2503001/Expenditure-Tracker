@@ -1,4 +1,4 @@
-import Expense from './components/Expense.js'
+import Expense from './components/Expense'
 
 
 function App(props) {
