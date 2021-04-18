@@ -4,7 +4,6 @@ import './ExpenseForm.css'
 const ExpenseForm = () => {
     const [enteredTitle, setEnteredTitle] = useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
-    const [enteredDate, setEnteredDate] = useState('');
 
     const titleChanegHandler =(event) => {
         setEnteredTitle(event.target.value);
@@ -12,10 +11,6 @@ const ExpenseForm = () => {
 
     const amountChanegHandler =(event) => {
         setEnteredAmount(event.target.value);
-    };
-
-    const dateChangeHandler =(event) => {
-        setEnteredDate(event.target.value);
     };
 
     return <form>
@@ -34,7 +29,7 @@ const ExpenseForm = () => {
         <div className="new-expense__controls">
             <div className="new-expense__control">
                 <label>Date</label>
-                <input type="date" min="2001-01-01" max="2025-12-31" onChange={dateChangeHandler}/>
+                <input type="date" min="2001-01-01" max="2025-12-31" onChange={dateChaneandler}/>
             </div>
         </div>
         <div className="new-expense__actions">

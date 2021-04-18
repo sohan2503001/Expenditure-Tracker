@@ -14,8 +14,8 @@ const ExpenseForm = () => {
         setEnteredAmount(event.target.value);
     };
 
-    const dateChangeHandler =(event) => {
-        setEnteredDate(event.target.value);
+    const dateChanegHandler =(event) => {
+        setEnteredA(event.target.value);
     };
 
     return <form>
