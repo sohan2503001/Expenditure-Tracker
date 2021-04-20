@@ -1,5 +1,5 @@
 import Expenses from './components/Expenses/Expenses';
-
+import ExpensesFilter from './components/Expenses/ExpensesFilter';
 import NewExpense from './components/NewExpense/NewExpence';
 
 function App() {
@@ -32,6 +32,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpensehandler}/>
+      <ExpensesFilter />
       <Expenses items={expenses} />
     </div>
   );

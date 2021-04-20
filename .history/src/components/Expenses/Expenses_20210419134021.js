@@ -5,7 +5,7 @@ import './Expenses.css';
 import ExpensesFilter from './ExpensesFilter';
 
 
-const Expenses = (props) => {
+function Expenses(props) {
     const [filteredYear, setFilteredYear] =  useState('2020');
 
     const filterChangeHandler = selectedYear => {
